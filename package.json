@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha --recursive 'test/unit/*.test.js' -R spec; exit 0",
-    "tdd": "watch 'npm run test' lib/ app/ test/; exit 0"
+    "tdd": "watch 'npm run test' lib/ app/ test/; exit 0",
+    "publish": "npm publish --access public"
   },
   "keywords": [],
   "author": "Sascha Goldhofer <noreply@saschagoldhofer.de> (https://github.com/sagold/)",
