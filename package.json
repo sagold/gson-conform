@@ -1,5 +1,5 @@
 {
-  "name": "gold-json-conform",
+  "name": "gson-conform",
   "version": "1.0.1",
   "description": "egalitarian js objects and arrays",
   "main": "lib/index.js",
