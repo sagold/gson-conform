@@ -1,6 +1,6 @@
 {
   "name": "gson-conform",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "egalitarian js objects and arrays",
   "main": "lib/index.js",
   "scripts": {
