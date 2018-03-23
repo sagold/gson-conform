@@ -1,22 +1,22 @@
 # json-conform
 
-via npm `npm i gson-conform`
+`npm install gson-conform --save`
 
 
 ```js
-const gson = require("gson-conform");
+const gc = require("gson-conform");
 
-var array = gson.asArray(anything);
+const array = gc.asArray(anything);
 // [anything]
 
-gson.forEach(arrayOrObject, callback(value, key, parent) {});
+gc.forEach(arrayOrObject, callback(value, key, parent) {});
 
-var keyInData = gson.keyOf(arrayOrObject, valueToFind);
+const keyInData = gc.keyOf(arrayOrObject, valueToFind);
 // *
 
-var allKeys = gson.keys(anything);
+const allKeys = gc.keys(anything);
 // []
 
-var allValues = gson.values(anything);
+const allValues = gc.values(anything);
 // []
 ```
