@@ -9,6 +9,10 @@
   },
   "keywords": [],
   "author": "Sascha Goldhofer <noreply@saschagoldhofer.de> (https://github.com/sagold/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sagold/gson-conform.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
